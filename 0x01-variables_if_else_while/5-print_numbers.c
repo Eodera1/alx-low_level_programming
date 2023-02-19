@@ -14,7 +14,7 @@ int main(void)
 	for (y = 0; y <= 10; y++)
 	{
 		if (y != 10)
-		printf("%i", y);
+		printf("%d", y);
 		printf("\n");
 	}
 	return (0);
