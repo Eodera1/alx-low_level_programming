@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry point.
  *
- * Description: Print a-z in reverse order
- * Return: 0 (Success)
+ *  Decription: Print a-z in reverse order
+ *   Return:  Zero
 */
-
 int main(void)
 {
 int num = 122;
