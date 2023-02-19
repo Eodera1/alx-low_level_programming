@@ -5,7 +5,7 @@
 /**
  *  main - Entry point.
  *  Description: Prints all possible different combinations of three digits
- *  Return zero
+ *  Return: zero
 */
 
 int main(void)
