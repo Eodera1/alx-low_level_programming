@@ -4,7 +4,7 @@
 
 /**
  *  main - Entry point.
- *  Description:
+ *  Description: Prints all possible different combinations of three digits
  *  Return zero
 */
 
