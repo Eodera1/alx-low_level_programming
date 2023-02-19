@@ -1,20 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- *
- *main - Single digit numbers of base 10 starting from 0
- *Description: Entry level
- *Return: 0 (Success)
- */
+ * main - Entry point.
+ * Description: print single digits of base 10 strating from 0.
+ * your are not allowed to use any char
+ * Return: Zero
+*/
+
 int main(void)
 {
-	int x;
-
-	for (x = 0; x < 10; x++)
-	{
-		putchar(x + '0');
-	}
-	putchar('\n');
-	return (0);
+int num1 = 48;
+while (num1 <= 57)
+{
+putchar(num1);
+++num1;
+}
+putchar('\n');
+return (0);
 }
