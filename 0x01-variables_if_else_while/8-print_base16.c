@@ -7,7 +7,7 @@
  *
  * Description: Print all the number in lowercase in base 16.
  * Return: Zero
- * */
+*/
 
 int main(void)
 {
