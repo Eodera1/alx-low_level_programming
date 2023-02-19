@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *
- *main - single digit numbers of base 10 starting from 0
+ *main - Single digit numbers of base 10 starting from 0
  *Description: Entry level
  *Return: 0 (Success)
  */
