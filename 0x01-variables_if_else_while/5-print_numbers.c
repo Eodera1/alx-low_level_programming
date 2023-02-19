@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (y != 10)
 		printf("%d", y);
-		printf("\n");
 	}
+	printf("\n");
 	return (0);
 }
