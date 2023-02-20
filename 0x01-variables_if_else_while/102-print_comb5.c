@@ -12,16 +12,16 @@
 int main(void)
 {
 int num1 = 48
-int num2 =0
+ int num2 = 0
 int num3;
 int comm_num = 44;
-while (num3 <= 99)
+while (num1 <= 99)
 {
-num3 = num3 + 1;
+num1 = num3 + 1;
 while (num3 <= 99)
 {
 putchar((num1 / 10) + num1);
-putchar((num2 % 10) + num1);
+putchar((num1 % 10) + num1);
 putchar(32);
 putchar((num3 / 10) + num1);
 putchar((num3 % 10) + num1);
