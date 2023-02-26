@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * more_numbers - print 10 times number 0 - 14 followed by newline
- *
- * Return: Always 0
- */
+* more_numbers - print 10 times number 0 - 14 followed by newline
+*
+* Return: Always 0
+*/
 
 void more_numbers(void)
 {
