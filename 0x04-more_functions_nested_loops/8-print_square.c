@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*print_square - Prints square # followed by a new line,newline if size is zero
-@size: value to look for
+* print_square - Prints square # followed by a new line,newline if size is zero
+* @size: value to look for.
 *
 * Return: Zero
 */
