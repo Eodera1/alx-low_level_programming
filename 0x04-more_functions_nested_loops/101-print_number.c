@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer
- * @n: value to check for
- *
- * Return: Zero
- */
+* print_number - prints an integer
+* @n: value to check for
+*
+* Return: Zero
+*/
 
 void print_number(int n)
 {
@@ -18,6 +18,7 @@ void print_number(int n)
 	}
 	else
 		num1 = n;
+
 	num2 = num1;
 	counter = 1;
 
