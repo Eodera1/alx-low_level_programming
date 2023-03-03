@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * print_buffer - prints buffer
+ * print_buffer - To print buffer
  * @b: buffer
- * @size: size
+ * @size: content of size bytes
  */
 
 void print_buffer(char *b, int size)
 {
-	int o, j, i;
+	int i, j, o;
 
 	o = 0;
 
@@ -26,7 +26,7 @@ void print_buffer(char *b, int size)
 			if (i < j)
 				printf("%02x", *(b + o + i));
 			else
-				printf(" ");
+				printf("  ");
 			if (i % 2)
 			{
 				printf(" ");
