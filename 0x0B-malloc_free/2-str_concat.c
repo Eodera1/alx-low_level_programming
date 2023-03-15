@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * str_concat - get ends of input and add together for size
@@ -11,36 +12,35 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *conct;
-	int i, ci;
+	char *concat;
+	int len1 = 0, len2 = 0, i = 0, j = 0;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
+	while (*(s1 + i))
+		len1++, i++;
+	while (*(s2 + j))
+		len2++, j++;
+	len2++;
 
-		i = ci = 0;
-	while (s1[i] != '\0')
-		i++;
-	while (s2[ci] != '\0')
-		ci++;
-	conct = malloc(sizeof(char) * (i + ci + 1));
+	concat = malloc(sizeof(char) * (len1 + len2));
 
-
-	if (conct == NULL)
+	if (concat == NULL)
 		return (NULL);
-	i = ci = 0;
-	while (s1[i] != '\0')
+
+	i = 0, j = 0;
+	while (i < len1)
 	{
-		conct[i] = s1[i];
+		*(concat + i) = *(s1 + i);
 		i++;
 	}
-
-	while (s2[ci] != '\0')
+	while (j < len2)
 	{
-		conct[i] = s2[ci];
-		i++, ci++;
+		*(concat + i) = *(s2 + j);
+		i++, j++;
 	}
-	conct[i] = '\0';
-	return (conct);
+
+	return (concat);
 }
