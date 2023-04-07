@@ -1,1 +1,1 @@
-C - Variadic functions
+C - Bit manipulation
