@@ -1,6 +1,16 @@
 #include "main.h"
 
-#define BUFFER_SIZE 1024
+/**
+ * main - copies the content of a file to another file
+ * @argv: An array of pointers to the arguments
+ * @argc: The number of arguments supplied to the program
+ * Return: 0 (success)
+ *
+ * Description: I f the argument count is incorrect - exit code 97.
+ * If file_to cannot be created or written to - exit code 99.
+ * If file_from does not exist or cannot be read - exit code 98.
+ * If file_to or file_from cannot be closed - exit code 100
+ */
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
